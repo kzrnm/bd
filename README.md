@@ -34,13 +34,13 @@ https://aur.archlinux.org/packages/bd-git
 ***For other OS***
 
 ```shell
-wget --no-check-certificate -O /usr/local/bin/bd https://raw.github.com/vigneshwaranr/bd/master/bd
+wget --no-check-certificate -O /usr/local/bin/bd https://raw.github.com/kzrnm/bd/master/bd
 chmod +rx /usr/local/bin/bd
 echo 'alias bd=". bd -si"' >> ~/.bashrc
 source ~/.bashrc
 
 # If you need autocomplete support, follow these two steps
-wget -O /etc/bash_completion.d/bd https://raw.github.com/vigneshwaranr/bd/master/bash_completion.d/bd
+wget -O /etc/bash_completion.d/bd https://raw.github.com/kzrnm/bd/master/bash_completion.d/bd
 source /etc/bash_completion.d/bd
 ```
 
@@ -88,7 +88,7 @@ You can take advantage of that by combining <code>\`bd \<letter(s)\>\`</code> wi
 ---
 
 **Screenshot:**
-![bd screenshot](https://raw.github.com/vigneshwaranr/bd/master/screenshot/bd.png "Screenshot that shows some of several ways to use bd")
+![bd screenshot](https://raw.github.com/kzrnm/bd/master/screenshot/bd.png "Screenshot that shows some of several ways to use bd")
 
 
 ---

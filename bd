@@ -26,7 +26,7 @@ Description: Go back to a specified directory up in the hierarchy.
 ------------------------------------------------------------------
 How to use:
 
-Please refer https://github.com/vigneshwaranr/bd
+Please refer https://github.com/kzrnm/bd
 
 EOF
   return 1
