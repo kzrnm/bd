@@ -54,7 +54,8 @@ newpwd() {
 
 if [ $# -eq 0 ]
 then
-  usage_error
+  cd ..
+  return 0
 elif [ "${@: -1}" = -v ]
 then
   usage_error
